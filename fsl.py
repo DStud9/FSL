@@ -2,7 +2,7 @@ import discord
 import os
 from discord.ext import commands
 
-intents = discord.Intents.all() # You can also add "discord.Intents.default()" and then "message_content = True", but I use "discord. Intents.all()".
+intents = discord.Intents.all() # You can also add "discord.Intents.default()" and then "message_content = True", but I use "discord.Intents.all()".
 
 bot = commands.Bot(command_prefix="!", intents=intents) # You can give any prefix you want
 
